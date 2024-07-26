@@ -9,6 +9,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.38.0",
+    "react-router-dom": "^6.25.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -17,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "coverage":"npm test --coverage"
+    "coverage": "npm test --coverage"
   },
   "eslintConfig": {
     "extends": [
@@ -25,7 +26,6 @@
       "react-app/jest"
     ]
   },
-
   "browserslist": {
     "production": [
       ">0.2%",
@@ -38,14 +38,14 @@
       "last 1 safari version"
     ]
   },
-  "jest" :{
-    "coverageThreshold":{
-      "global":{
-        "branch":80,
-        "function":80,
-        "lines":80,
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branch": 80,
+        "function": 80,
+        "lines": 80,
         "statement": -10
       }
     }
-      }
+  }
 }

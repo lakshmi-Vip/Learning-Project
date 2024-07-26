@@ -1,2 +1,6 @@
 Steps to link git to vs code to commit the code
 https://www.jcchouinard.com/install-git-in-vscode/
+
+When you are getting ERROR:failed to push some refs to 'origin'
+git pull --rebase origin main
+git push origin main

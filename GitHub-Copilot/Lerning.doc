@@ -1,0 +1,25 @@
+What is GitHub-Copilot?
+Git hub Copilot is an AI coding paertener that provides autocomplete suggestions while we code.
+Get suggestions by typing code or describing in the natural language.
+Copilot analyzes your file and related files, offering suggestions in your text editor. 
+It uses OpenAI Codex, a new AI system developed by OpenAI, to help derive context from written code and comments, and then suggests new lines or entire functions.
+
+How to generate code with prompts using Copilot?
+Add a comment in normal language and get the suggestions.
+
+How to generate Copilot suggestions as you type?
+GitHub Copilot offers suggestions for a range of languages and frameworks, including Python, JavaScript, TypeScript, Ruby, Go, C# and C++.
+Write a code based on your logic you will get an suggesions to continue with the code.
+
+How to reduce repetitive tasks with Copilot?
+When you try to type same code may if you writen earlier, you won't get suggesions. insted the icon will render
+and no reference will get.
+
+How to write documentation with Copilot suggestions?
+Write a funtion name which was written in the code, and some times try to type the some data you will get the suggesions.
+Get real-life examples from your code project to enhance your writing. 
+
+How to use new features with Copilot Labs?
+Explore and experiment with brand new features before they are implemented into Copilot. 
+Copilot labs is a great option for enhancing your Copilot experience, since it provides human-readable explanations of your code, robust refactoring, and automatic documentation.
+

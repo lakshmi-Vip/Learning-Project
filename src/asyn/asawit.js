@@ -6,29 +6,27 @@ function add(a) {
  console.log(sum);
 }
 
-// function pro(val){
-//     return new Promise((res,rej) =>{
-//         const dt = add(val)
-//         if(dt > 2){
-//             res(dt);
-//         } else {
-//             rej(dt);
-//         }
-//     })
-// }
- 
-// pro(2)
-// .then(dt => console.log('val',dt))
-// .catch(error => console.log('err',error))
+function multi(b) {
+    const mlt = b * b;
+    console.log(mlt);
+   }
+
 
 async function asaw(){
     try{
-        console.log('data featch')
-    await add(2);
-   console.log('start exicution')
+        await add(2);
+        multi(4)
+       console.log('y');
     } catch(err){
      console.log(err)
     }
 }
-
+console.log(1)
 asaw()
+console.log(2)
+
+function div() {
+    const d = 2 -1;
+    console.log('hey div', d)
+}
+div()

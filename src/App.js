@@ -1,6 +1,4 @@
 import { Fragment } from 'react';
-import UseSateHook from './Hooks/useSate';
-import UseEffectHook from './Hooks/useEffect';
 //import ThemChange from './Hooks/useContext'; 
 import Parent from './code/parent';
 import App1 from './Hooks/useMemo';
@@ -24,21 +22,24 @@ import NewProd from './router-components/NewProd';
 import Users from './Users';
 import UserDetails from './UserDetails';
 import Admin from './router-components/Admin';
+import UseStateHook from './Hooks/useStateHook';
+import UseEffectHook from './Hooks/useEffectHook';
+import UseCallbackHook from './Hooks/useCallbackHook';
+import UseRefHook from './Hooks/useRefHook';
+import UseContextHook from './Hooks/useContextHook';
+import UseReducerHook from './Hooks/useReducerHook';
+import UseMemoHook from './Hooks/useMemoHook';
+
 function App() {
   return (
     <>
-
- <UseSateHook />
-<UseEffectHook />
-<Refe />
-<App1 /> 
-<ContextData />
-<useCallbackHook />
-<UseReducerHook />
-
-
-
-
+    <UseStateHook />
+   <UseEffectHook />
+   <UseCallbackHook />
+   <UseRefHook />
+   <UseContextHook />
+   <UseReducerHook />
+    <UseMemoHook />
     {/* <Navbar /> */}
 
   {/* <Routes>

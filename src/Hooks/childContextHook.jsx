@@ -1,7 +1,7 @@
 import { React, useState, useContext } from "react";
 import {UserContext, ChannelContext} from "./useContext"
 
-function Chaild() {
+function childContextHook() {
  const [inputValue, SetInputValue] = useState();
 
  const Submit = (event) =>{
@@ -20,4 +20,4 @@ function Chaild() {
     );
 }
 
-export default Chaild
+export default childContextHook

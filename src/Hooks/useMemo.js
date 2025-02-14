@@ -1,7 +1,10 @@
+//The useMemo hook in React is used to memoize the result of a computation, so that the computation is only re-run when one of its dependencies changes. This can improve performance by avoiding expensive calculations on every render.
+
+//The useMemo hook takes two arguments: a function that performs the computation, and an array of dependencies. The function is only re-run when one of the dependencies changes. The result of the computation is memoized, so that it is only re-calculated when necessary.
 import { useState, useMemo } from "react";
 import ReactDOM from "react-dom/client";
 
-const App1 = () => {
+const UseMemoHook = () => {
   const [count, setCount] = useState(0);
   const [todos, setTodos] = useState([]);
   const calculation = useMemo(() => expensiveCalculation(count), [count]);
@@ -16,7 +19,7 @@ const App1 = () => {
   return (
     <div>
       <div>
-        <h2>My Todos</h2>
+        <h2>My Todos Usememo</h2>
         {todos.map((todo) => {
           return <p>{todo}</p>;
         })}
@@ -41,4 +44,4 @@ const expensiveCalculation = (num) => {
   return num;
 };
 
-export default App1
+export default UseMemoHook

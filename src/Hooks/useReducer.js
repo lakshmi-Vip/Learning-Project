@@ -24,12 +24,11 @@ const reducer = (state, action) => {
    }
 }
 
-const Counter = () =>{
+const UseReducerHook = () =>{
    const[state, dispatch] = useReducer(reducer, initialState);
    return(
        <>
-       <h5>Reducer Hook</h5>
-       <p>Count: {state.count}</p>
+       <p>Reducer Hook Count: {state.count}</p>
        <button onClick = {() =>{dispatch({type: 'increment'})}}>Increment</button>
        <button onClick= {()=>{dispatch({type:'decrement'})}}>Decrement</button>
        <button onClick={() => {dispatch({type:'reset'})}}>Reset</button>
@@ -37,4 +36,4 @@ const Counter = () =>{
    )
 }
 
-export default Counter;
+export default UseReducerHook;

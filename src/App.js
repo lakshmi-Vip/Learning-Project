@@ -27,8 +27,21 @@ import Admin from './router-components/Admin';
 function App() {
   return (
     <>
-    <Navbar />
-  <Routes>
+
+ <UseSateHook />
+<UseEffectHook />
+<Refe />
+<App1 /> 
+<ContextData />
+<useCallbackHook />
+<UseReducerHook />
+
+
+
+
+    {/* <Navbar /> */}
+
+  {/* <Routes>
     <Route path='/' element={<Home />}></Route>
     <Route path='about' element={<About />}></Route>
     <Route path='order-summary' element={<OrderSummary/>}></Route>
@@ -43,7 +56,7 @@ function App() {
     </Route>
     
     <Route path='*' element={<Nomatch/>}></Route>
-  </Routes>
+  </Routes> */}
   </>
   );
 }

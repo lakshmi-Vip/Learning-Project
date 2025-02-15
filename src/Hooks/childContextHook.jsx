@@ -1,7 +1,7 @@
 import { React, useState, useContext } from "react";
-import {UserContext, ChannelContext} from "./useContext"
+import {UserContext, ChannelContext} from "./useContextHook"
 
-function childContextHook() {
+function ChildContextHook() {
  const [inputValue, SetInputValue] = useState();
 
  const Submit = (event) =>{
@@ -20,4 +20,4 @@ function childContextHook() {
     );
 }
 
-export default childContextHook
+export default ChildContextHook

@@ -27,12 +27,12 @@ import UseMemoHook from './Hooks/useMemoHook';
 function App() {
   return (
     <>
-    <UseStateHook />
-   <UseEffectHook />
-   <UseCallbackHook />
-   <UseRefHook />
-   <UseContextHook />
-   <UseReducerHook />
+    {/* <UseStateHook /> */}
+   {/* <UseEffectHook /> */}
+   {/* <UseCallbackHook /> */}
+   {/* <UseRefHook /> */}
+   {/* <UseContextHook /> */}
+   {/* <UseReducerHook /> */}
     <UseMemoHook />
     {/* <Navbar /> */}
 

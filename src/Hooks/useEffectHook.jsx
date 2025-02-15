@@ -12,6 +12,8 @@ useEffect is a hook that allows you to perform side effects in function componen
 */
 //create example for use effect that it should perfoem all side effects and also show the use of array of dependencies and clean up with all 3 life cycle methods
 import React, { useState, useEffect } from 'react';
+import ApiEffect from './UseEffect/apiEffect';
+import SubScriptionEffect from './UseEffect/subScriptionEffect';
 
 function UseEffectHook() {
     const [count, setCount] = useState(0);
@@ -29,6 +31,12 @@ function UseEffectHook() {
         <div>
             <p>You clicked {count} times</p>
             <button onClick={() => setCount(count + 1)}>Click me</button>
+            <div>
+                <ApiEffect />
+
+                <br />
+                <SubScriptionEffect />
+            </div>
         </div>
     )
 }

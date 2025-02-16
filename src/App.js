@@ -30,10 +30,10 @@ function App() {
     {/* <UseStateHook /> */}
    {/* <UseEffectHook /> */}
    {/* <UseCallbackHook /> */}
-   {/* <UseRefHook /> */}
+   <UseRefHook />
    {/* <UseContextHook /> */}
    {/* <UseReducerHook /> */}
-    <UseMemoHook />
+    {/* <UseMemoHook /> */}
     {/* <Navbar /> */}
 
   {/* <Routes>

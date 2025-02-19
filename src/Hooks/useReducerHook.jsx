@@ -12,6 +12,7 @@ import React, { useReducer } from 'react';
 import ShoppingCart from './UseReducer/shopingCart';
 import FormState from './UseReducer/formState';
 const initialState = 0;
+
 const reducer = (state, action) => {
     switch (action) {
         case 'increment':

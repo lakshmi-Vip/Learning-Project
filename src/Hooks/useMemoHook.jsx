@@ -18,7 +18,7 @@ const UseMemoHook = () => {
     const doubleNumber = useMemo(() => {
         return slowFunction(count);
     }, [count]);
-
+// useMemo(() =>{},[])
     return (
         <div>
             <h1>UseMemo Hook</h1>

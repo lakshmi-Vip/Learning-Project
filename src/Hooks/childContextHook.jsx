@@ -2,19 +2,17 @@ import { React, useState, useContext } from "react";
 import {UserContext, ChannelContext} from "./useContextHook"
 
 function ChildContextHook() {
- const [inputValue, SetInputValue] = useState();
+ 
 
- const Submit = (event) =>{
-    SetInputValue(event.target.value)
- }
+ 
  const name = useContext(UserContext);
  const place = useContext(ChannelContext);
     return(
         <>
         <form>
             <p>My name is {name} and rented home in {place}</p>
-            <input type='text' value = {inputValue}></input>
-            <button onClick={Submit}>Submit</button>
+            
+            <button>Submit</button>
         </form>
         </>
     );

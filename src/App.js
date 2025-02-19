@@ -30,8 +30,8 @@ function App() {
     {/* <UseStateHook /> */}
    {/* <UseEffectHook /> */}
    {/* <UseCallbackHook /> */}
-   <UseRefHook />
-   {/* <UseContextHook /> */}
+   {/* <UseRefHook /> */}
+   <UseContextHook />
    {/* <UseReducerHook /> */}
     {/* <UseMemoHook /> */}
     {/* <Navbar /> */}

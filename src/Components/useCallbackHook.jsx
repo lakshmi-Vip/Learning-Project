@@ -7,25 +7,28 @@ what is useCallback?
 - It is used to prevent the recreation of the same function on every render.
 
 */
-//give example based on the defination above
+//give example based on the definition above
 
 import React, { useState, useCallback } from 'react';
-
+import ListRendering from './UseCallback/llistRendaring';
+import EventHandlerCombined from './UseCallback/eventHandlerChaid';
 const UseCallbackHook = () => {
-    const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);
 
-    const increment = useCallback(() => { //useCallback is used to prevent the recreation of the same function on every render.
-        setCount(count + 1); 
-    }, [count]);
-    return (
-        <div>
-            <h1>UseCallback Hook</h1>
-            <h2>{count}</h2>
-            <button onClick={increment}>Increment</button>
-        </div>
-    )
-}
+  const increment = useCallback(() => {
+    setCount(prevCount => prevCount + 1);
+  }, []);
+
+  return (
+    <div>
+      <h1>UseCallback Hook</h1>
+      <h2>{count}</h2>
+      <button onClick={increment}>Increment</button>
+      <br />
+      <EventHandlerCombined />
+      <ListRendering />
+    </div>
+  );
+};
 
 export default UseCallbackHook;
-
-

@@ -9,8 +9,10 @@ It is similar to the reducer function in JavaScript.
 //create example for useReducer
 
 import React, { useReducer } from 'react';
-
+import ShoppingCart from './UseReducer/shopingCart';
+import FormState from './UseReducer/formState';
 const initialState = 0;
+
 const reducer = (state, action) => {
     switch (action) {
         case 'increment':
@@ -34,6 +36,9 @@ const UseReducerHook = () => {
             <button onClick={() => dispatch('increment')}>Increment</button>
             <button onClick={() => dispatch('decrement')}>Decrement</button>
             <button onClick={() => dispatch('reset')}>Reset</button>
+
+            <ShoppingCart />
+            <FormState />
         </div>
     )
 }

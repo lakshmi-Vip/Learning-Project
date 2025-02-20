@@ -28,12 +28,12 @@ function App() {
   return (
     <>
     <UseStateHook />
-   {/* <UseEffectHook />
+   <UseEffectHook />
    <UseCallbackHook />
    <UseRefHook />
    <UseContextHook />
    <UseReducerHook />
-    <UseMemoHook /> */}
+    <UseMemoHook />
     {/* <Navbar /> */}
 
   {/* <Routes>

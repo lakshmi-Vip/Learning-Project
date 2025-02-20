@@ -10,6 +10,7 @@ It is used to prevent the recreation of the same value on every render.
 //give example based on the defination above
 
 import React, { useState, useMemo } from 'react';
+import ProductSearch from './UseMemo/productSearch';
 
 const UseMemoHook = () => {
     const [count, setCount] = useState(0);
@@ -17,12 +18,14 @@ const UseMemoHook = () => {
     const doubleNumber = useMemo(() => {
         return slowFunction(count);
     }, [count]);
-
+// useMemo(() =>{},[])
     return (
         <div>
             <h1>UseMemo Hook</h1>
             <h2>{doubleNumber}</h2>
             <button onClick={() => setCount(count + 1)}>Increment</button>
+          <ProductSearch />
+            
         </div>
     )
 }

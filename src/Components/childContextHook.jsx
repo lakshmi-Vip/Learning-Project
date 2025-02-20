@@ -1,7 +1,7 @@
 import { React, useState, useContext } from "react";
 import {UserContext, ChannelContext} from "./useContext"
 
-function ChaildContextHook() {
+function childContextHook() {
  const [inputValue, SetInputValue] = useState();
 
  const Submit = (event) =>{
@@ -13,11 +13,11 @@ function ChaildContextHook() {
         <>
         <form>
             <p>My name is {name} and rented home in {place}</p>
-            <input type='text' value = {inputValue}></input>
-            <button onClick={Submit}>Submit</button>
+            
+            <button>Submit</button>
         </form>
         </>
     );
 }
 
-export default ChaildContextHook
+export default childContextHook

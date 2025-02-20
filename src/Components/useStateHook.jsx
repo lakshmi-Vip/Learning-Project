@@ -28,7 +28,8 @@ function UseStateHook() {
                 {todos.map((item, index) => <li key={index}>{item}</li>)}
             </ul>
 
-            <button onClick={() => delteTodo()}>Delete</button>
+             <button onClick={() => setTodos([])}>Delete All</button> {/*delete selected  not all todos*/}
+             <button onClick={() => delteTodo(0)}>Delete 1st</button> {/*delete selected  not all todos*/}
         </div>
     )
 }

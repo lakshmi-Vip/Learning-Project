@@ -1,0 +1,361 @@
+1.What is js and what are different data types?
+2.Function binding and Argument Binging
+3.Difference between functional Components and classcompont
+4.Difference between normal function and class function
+5.Differnce between ES5 and ES6 feature introduced
+6.differnce between spreed and rest operator
+7.Desturctureing arry and objects
+8.Map. filter, foreach, find, reduce, shift, unshift, slice, splice, pop, push, include
+9.LexicalScope, Closure, curring, Hoisting
+10.What is pure function and Pure component?
+11.firstclass funtion?
+12.HOC(higher order function)
+13.what is jsx and bable, webpack
+14.what is react, why we use even other libraries is there
+15.Features of react?
+16.What is Virtual dom?
+17.Difference btween VDOM and Real dom, props, state
+18.What is React hooks(state, effect, reducer, momo, callback, useref, context) and Custom hooks
+19.What are call bind apply and differnce
+20.What is differnce between let, var, const(es6 refer all the concepts)
+21.Self invoke function, function defination, function expression
+22. Whay we use Key and lists
+23. synthetic events, nonsyntetic events, genrator funtion
+24.react forms, React Routers, shallow copy and deep copy
+25. explain react lifecycle methods
+26.Conditional rendaring, Event loop, generator Function, getter ,setter
+27. how to optimise the react application(code)
+28.How to create components in react and how proejct will work
+29.what is redux, and components of redux, core principles of Redux
+30.Differnce between redux and flux
+31.fetch and axios, how to get the data from api and json to unshift
+33.Unit testing questions, RTK Queries
+34. how to connect react and redux
+35.async await, Promises, Callback differences.
+36.Differnce between usecallBack, useMomo, UseEffect
+
+
+1.What is JavaScript and what are different data types?
+Question: What is JavaScript? Answer: JavaScript is a high-level, interpreted programming language that is used to create interactive effects within web browsers.
+
+Question: What are the different data types in JavaScript? Answer: JavaScript has the following data types:
+
+Primitive: String, Number, Boolean, Null, Undefined, Symbol, BigInt
+Non-Primitive: Object, Array, Function
+2. Function binding and Argument Binding
+Question: What is function binding in JavaScript? Answer: Function binding refers to the process of setting the this value of a function explicitly using the bind method.
+
+Example:
+
+Question: What is argument binding in JavaScript? Answer: Argument binding refers to the process of pre-setting arguments for a function using the bind method.
+
+Example:
+
+3. Difference between Functional Components and Class Components
+Question: What is the difference between functional components and class components in React? Answer: Functional components are simpler and are defined as JavaScript functions. Class components are more feature-rich and are defined using ES6 classes.
+
+Example:
+
+4. Difference between Normal Function and Class Function
+Question: What is the difference between a normal function and a class function in JavaScript? Answer: A normal function is a regular function defined using the function keyword. A class function (method) is a function defined within a class.
+
+Example:
+
+5. Difference between ES5 and ES6 Features Introduced
+Question: What are some key differences between ES5 and ES6? Answer: ES6 introduced several new features, including:
+
+let and const for block-scoped variables
+Arrow functions
+Template literals
+Classes
+Modules
+Destructuring assignment
+Default parameters
+Spread and rest operators
+6. Difference between Spread and Rest Operator
+Question: What is the difference between the spread and rest operator in JavaScript? Answer: The spread operator (...) is used to expand an iterable into individual elements. The rest operator (...) is used to collect multiple elements into an array.
+
+Example:
+
+7. Destructuring Array and Objects
+Question: What is destructuring in JavaScript? Answer: Destructuring is a syntax that allows you to unpack values from arrays or properties from objects into distinct variables.
+
+Example:
+
+8. Map, Filter, ForEach, Find, Reduce, Shift, Unshift, Slice, Splice, Pop, Push, Include
+Question: What are some common array methods in JavaScript? Answer:
+
+map: Creates a new array with the results of calling a function on every element.
+filter: Creates a new array with all elements that pass the test.
+forEach: Executes a function on each array element.
+find: Returns the first element that passes the test.
+reduce: Reduces the array to a single value.
+shift: Removes the first element.
+unshift: Adds new elements to the beginning.
+slice: Returns selected elements as a new array.
+splice: Adds/removes elements from an array.
+pop: Removes the last element.
+push: Adds new elements to the end.
+includes: Checks if an array contains a specified element.
+9. Lexical Scope, Closure, Currying, Hoisting
+Question: What is lexical scope in JavaScript? Answer: Lexical scope refers to the scope determined by the physical placement of the code in the source code.
+
+Question: What is a closure in JavaScript? Answer: A closure is a function that has access to its own scope, the scope of the outer function, and the global scope.
+
+Example:
+
+Question: What is currying in JavaScript? Answer: Currying is a technique of transforming a function that takes multiple arguments into a sequence of functions that each take a single argument.
+
+Example:
+
+Question: What is hoisting in JavaScript? Answer: Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope.
+
+Example:
+
+10. What is a Pure Function and Pure Component?
+Question: What is a pure function in JavaScript? Answer: A pure function is a function that always returns the same result given the same arguments and has no side effects.
+
+Question: What is a pure component in React? Answer: A pure component is a component that renders the same output for the same props and state.
+
+11. First-Class Function
+Question: What is a first-class function in JavaScript? Answer: A first-class function is a function that can be treated like any other variable, meaning it can be passed as an argument, returned from a function, and assigned to a variable.
+
+12. Higher-Order Function (HOC)
+Question: What is a higher-order function in JavaScript? Answer: A higher-order function is a function that takes another function as an argument or returns a function as a result.
+
+Example:
+
+13. What is JSX and Babel, Webpack
+Question: What is JSX in React? Answer: JSX is a syntax extension for JavaScript that looks similar to XML or HTML and is used to describe the UI in React.
+
+Question: What is Babel? Answer: Babel is a JavaScript compiler that converts modern JavaScript code into a backward-compatible version for older browsers.
+
+Question: What is Webpack? Answer: Webpack is a module bundler that bundles JavaScript files for usage in a browser.
+
+14. What is React, Why We Use It Even Other Libraries Are There
+Question: What is React? Answer: React is a JavaScript library for building user interfaces, developed by Facebook.
+
+Question: Why use React over other libraries? Answer: React is known for its simplicity, performance, and flexibility. It uses a virtual DOM for efficient updates and has a large ecosystem and community support.
+
+15. Features of React
+Question: What are some key features of React? Answer: Key features of React include:
+
+Virtual DOM
+Component-based architecture
+Unidirectional data flow
+JSX syntax
+Lifecycle methods
+Hooks
+16. What is Virtual DOM?
+Question: What is the Virtual DOM in React? Answer: The Virtual DOM is an in-memory representation of the real DOM elements generated by React components before any changes are made to the web page.
+
+17. Difference between VDOM and Real DOM, Props, State
+Question: What is the difference between the Virtual DOM and the Real DOM? Answer: The Virtual DOM is a lightweight copy of the Real DOM that allows React to update the UI efficiently by minimizing direct manipulation of the Real DOM.
+
+Question: What are props in React? Answer: Props (short for properties) are read-only attributes used to pass data from parent to child components.
+
+Question: What is state in React? Answer: State is a built-in object used to store data that affects the rendering of a component.
+
+18. What are React Hooks (useState, useEffect, useReducer, useMemo, useCallback, useRef, useContext) and Custom Hooks
+Question: What are React Hooks? Answer: React Hooks are functions that let you use state and other React features in functional components.
+
+Question: What is useState? Answer: useState is a hook that allows you to add state to functional components.
+
+Question: What is useEffect? Answer: useEffect is a hook that lets you perform side effects in functional components.
+
+Question: What is useReducer? Answer: useReducer is a hook that is used for state management, similar to useState but more suitable for complex state logic.
+
+Question: What is useMemo? Answer: useMemo is a hook that memoizes the result of a function to optimize performance.
+
+Question: What is useCallback? Answer: useCallback is a hook that returns a memoized callback function.
+
+Question: What is useRef? Answer: useRef is a hook that returns a mutable ref object.
+
+Question: What is useContext? Answer: useContext is a hook that allows you to consume context values.
+
+Question: What are custom hooks? Answer: Custom hooks are user-defined functions that allow you to reuse stateful logic across multiple components.
+
+19. What are call, bind, apply and their differences
+Question: What is the difference between call, bind, and apply in JavaScript? Answer:
+
+call: Invokes a function with a specified this value and arguments.
+apply: Invokes a function with a specified this value and arguments as an array.
+bind: Returns a new function with a specified this value and arguments.
+Example:
+
+20. What is the difference between let, var, const (ES6 concepts)
+Question: What is the difference between let, var, and const in JavaScript? Answer:
+
+var: Function-scoped variable, can be redeclared and updated.
+let: Block-scoped variable, can be updated but not redeclared.
+const: Block-scoped variable, cannot be updated or redeclared.
+Example:
+
+21. Self-Invoking Function, Function Definition, Function Expression
+Question: What is a self-invoking function in JavaScript? Answer: A self-invoking function is a function that is executed immediately after it is defined.
+
+Example:
+
+Question: What is a function definition in JavaScript? Answer: A function definition is a regular function declaration.
+
+Example:
+
+Question: What is a function expression in JavaScript? Answer: A function expression is a function defined within an expression.
+
+Example:
+
+22. Why we use Key and Lists
+Question: Why do we use keys in lists in React? Answer: Keys help React identify which items have changed, are added, or are removed, and they improve the performance of list rendering.
+
+Example:
+
+23. Synthetic Events, Non-Synthetic Events, Generator Function
+Question: What are synthetic events in React? Answer: Synthetic events are React's cross-browser wrapper around the browser's native event system.
+
+Question: What are non-synthetic events? Answer: Non-synthetic events are the native events provided by the browser.
+
+Question: What is a generator function in JavaScript? Answer: A generator function is a function that can pause execution and resume at a later point.
+
+Example:
+
+24. React Forms, React Routers, Shallow Copy and Deep Copy
+Question: How do you handle forms in React? Answer: Forms in React are handled using controlled components, where form data is managed by the component's state.
+
+Example:
+
+Question: What is React Router? Answer: React Router is a library for routing in React applications, allowing navigation between different components.
+
+Example:
+
+Question: What is the difference between shallow copy and deep copy? Answer: A shallow copy copies the object's structure but not the nested objects. A deep copy copies the object and all nested objects.
+
+Example:
+
+25. Explain React Lifecycle Methods
+Question: What are React lifecycle methods? Answer: React lifecycle methods are methods that get called at different stages of a component's lifecycle, such as mounting, updating, and unmounting.
+
+Example:
+
+26. Conditional Rendering, Event Loop, Generator Function, Getter, Setter
+Question: How do you perform conditional rendering in React? Answer: Conditional rendering in React can be done using JavaScript conditional operators like if, else, and ternary operators.
+
+Example:
+
+Question: What is the event loop in JavaScript? Answer: The event loop is a mechanism that allows JavaScript to perform non-blocking operations by offloading operations to the system kernel whenever possible.
+
+Question: What is a generator function in JavaScript? Answer: A generator function is a function that can pause execution and resume at a later point.
+
+Example:
+
+Question: What are getters and setters in JavaScript? Answer: Getters and setters are special methods that provide a way to access and update the properties of an object.
+
+Example:
+
+27. How to Optimize a React Application
+Question: How can you optimize a React application? Answer: Some ways to optimize a React application include:
+
+Using React.memo to prevent unnecessary re-renders
+Using useMemo and useCallback hooks
+Code splitting with React.lazy and Suspense
+Avoiding inline functions in render
+Similar code found with 1 license type - View matches
+Sorry, the response hit the length limit. Please rephrase your prompt
+
+
+
+How to optimize the React application (code)?
+Question: What are some ways to optimize a React application?
+
+Answer:
+
+Use React.memo: Memoize functional components to prevent unnecessary re-renders.
+
+Use useCallback and useMemo: Memoize functions and values to avoid unnecessary re-renders.
+
+Code Splitting: Use dynamic imports to split code into smaller bundles.
+
+Avoid Inline Functions: Define functions outside of the render method to avoid re-creation on each render.
+
+28. How to create components in React and how the project will work?
+Question: How do you create components in React?
+
+Answer:
+
+Functional Components: Simple components using functions.
+
+Class Components: More complex components using ES6 classes.
+
+Project Structure:
+
+29. What is Redux, and components of Redux, core principles of Redux?
+Question: What is Redux and what are its core principles?
+
+Answer:
+
+Redux: A predictable state container for JavaScript apps.
+Core Principles:
+Single Source of Truth: The state of your whole application is stored in an object tree within a single store.
+State is Read-Only: The only way to change the state is to emit an action, an object describing what happened.
+Changes are Made with Pure Functions: To specify how the state tree is transformed by actions, you write pure reducers.
+Components of Redux:
+
+Store: Holds the state of the application.
+Actions: Plain objects describing the type of change.
+Reducers: Pure functions that take the current state and an action, and return the next state.
+30. Difference between Redux and Flux?
+Question: What is the difference between Redux and Flux?
+
+Answer:
+
+Flux: An architecture for building client-side web applications. It has multiple stores and unidirectional data flow.
+Redux: A library for managing application state. It has a single store and follows the same unidirectional data flow but with a more predictable state management approach.
+31. Fetch and Axios, how to get the data from API and JSON to unshift?
+Question: How do you use Fetch and Axios to get data from an API?
+
+Answer:
+
+Fetch:
+
+Axios:
+
+Unshift Example:
+
+33. Unit testing questions, RTK Queries?
+Question: What are some common unit testing questions and what is RTK Query?
+
+Answer:
+
+Unit Testing Questions:
+
+What is unit testing?
+How do you write a unit test in React?
+What is the difference between unit testing and integration testing?
+RTK Query: A powerful data fetching and caching tool built on top of Redux Toolkit.
+
+34. How to connect React and Redux?
+Question: How do you connect React and Redux?
+
+Answer:
+
+Install Redux and React-Redux:
+
+Create a Redux Store:
+
+Provide the Store to React:
+
+Connect a Component:
+
+35. Async/Await, Promises, Callback differences?
+Question: What are the differences between async/await, promises, and callbacks?
+
+Answer:
+
+Callbacks: Functions passed as arguments to other functions to be executed later.
+
+Promises: Objects representing the eventual completion or failure of an asynchronous operation.
+
+Async/Await: Syntactic sugar built on top of promises for writing asynchronous code.
+
+This should provide a comprehensive overview of each topic with questions and simple, meaningful answers.
+
+Similar code found with 2 license types - View matches

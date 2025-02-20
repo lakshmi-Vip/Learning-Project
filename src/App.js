@@ -1,11 +1,5 @@
-import { Fragment } from 'react';
-//import ThemChange from './Hooks/useContext'; 
+import { Fragment } from 'react'; 
 import Parent from './code/parent';
-import App1 from './Hooks/useMemo';
-import UseRef from './Hooks/useRef';
-import Counter from './Hooks/useReducer';
-import ContextData from './Hooks/useContext';
-import Refe from './Hooks/useRef'
 import Form from './form-rh';
 import App11 from './form-rh/reactForm';
 import Login from './login/Login';
@@ -22,24 +16,24 @@ import NewProd from './router-components/NewProd';
 import Users from './Users';
 import UserDetails from './UserDetails';
 import Admin from './router-components/Admin';
-import UseStateHook from './Hooks/useStateHook';
-import UseEffectHook from './Hooks/useEffectHook';
-import UseCallbackHook from './Hooks/useCallbackHook';
-import UseRefHook from './Hooks/useRefHook';
-import UseContextHook from './Hooks/useContextHook';
-import UseReducerHook from './Hooks/useReducerHook';
-import UseMemoHook from './Hooks/useMemoHook';
+import UseStateHook from './Components/useStateHook';
+import UseEffectHook from './Components/useEffectHook';
+import UseCallbackHook from './Components/useCallbackHook';
+import UseRefHook from './Components/useRefHook';
+import UseContextHook from './Components/useContextHook';
+import UseReducerHook from './Components/useReducerHook';
+import UseMemoHook from './Components/useMemoHook';
 
 function App() {
   return (
     <>
     <UseStateHook />
-   <UseEffectHook />
+   {/* <UseEffectHook />
    <UseCallbackHook />
    <UseRefHook />
    <UseContextHook />
    <UseReducerHook />
-    <UseMemoHook />
+    <UseMemoHook /> */}
     {/* <Navbar /> */}
 
   {/* <Routes>

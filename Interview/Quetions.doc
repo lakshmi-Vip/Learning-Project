@@ -261,6 +261,17 @@ Avoiding inline functions in render
 Similar code found with 1 license type - View matches
 Sorry, the response hit the length limit. Please rephrase your prompt
 
+Question: What is throttling in JavaScript?
+
+Answer: Throttling is a technique used to limit the number of times a function can be called over a period of time. 
+It ensures that a function is called at most once in a specified interval, regardless of how many times the event is triggered.
+
+Question: What is debouncing in JavaScript?
+
+Answer: Debouncing is a technique used to ensure that a function is only called once after a specified period of time has passed since the last time it was invoked. 
+It is useful for limiting the rate at which a function is executed, especially for events that may be triggered frequently, such as keystrokes or window resizing.
+
+
 
 
 How to optimize the React application (code)?

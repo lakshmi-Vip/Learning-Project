@@ -3,8 +3,8 @@ You pass the initial state to this function and it returns a variable with the c
  (not necessarily the initial state) and another function to update this value.*/
 
 import React, { useState } from 'react';
-import ToggleState from './Usestate/toggleState';
-import FormState from './Usestate/formState';
+// import ToggleState from './Usestate/toggleState';
+// import FormState from './Usestate/formState';
 
 function UseStateHook() {
     //example take as todo app
@@ -34,11 +34,11 @@ function UseStateHook() {
              <button onClick={() => delteTodo(0)}>Delete 1st</button> {/*delete selected  not all todos*/}
             <button onClick={() => delteTodo()}>Delete</button>
 
-            <div>
+            {/* <div>
                 <ToggleState />
                 <br />
                 <FormState />
-            </div>
+            </div> */}
         </div>
     )
 }

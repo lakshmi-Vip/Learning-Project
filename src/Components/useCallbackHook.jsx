@@ -10,8 +10,8 @@ what is useCallback?
 //give example based on the definition above
 
 import React, { useState, useCallback } from 'react';
-import ListRendering from './UseCallback/llistRendaring';
-import EventHandlerCombined from './UseCallback/eventHandlerChaid';
+// import ListRendering from './UseCallback/llistRendaring';
+// import EventHandlerCombined from './UseCallback/eventHandlerChaid';
 const UseCallbackHook = () => {
   const [count, setCount] = useState(0);
 
@@ -25,8 +25,8 @@ const UseCallbackHook = () => {
       <h2>{count}</h2>
       <button onClick={increment}>Increment</button>
       <br />
-      <EventHandlerCombined />
-      <ListRendering />
+      {/* <EventHandlerCombined />
+      <ListRendering /> */}
     </div>
   );
 };

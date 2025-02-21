@@ -23,17 +23,24 @@ import UseRefHook from './Components/useRefHook';
 import UseContextHook from './Components/useContextHook';
 import UseReducerHook from './Components/useReducerHook';
 import UseMemoHook from './Components/useMemoHook';
+import {lazy , Suspense} from 'react';
+import ParentComponent from './CodeOptimozation/React.Memo/parentComponent';
+const LazyComponent = lazy(() => import('./Components/useMemoHook'))
 
 function App() {
   return (
     <>
-    <UseStateHook />
-   <UseEffectHook />
+    <Suspense fallback={<div> Loading ......</div>}>
+    <LazyComponent/>
+    </Suspense>
+    <ParentComponent />
+    {/* <UseStateHook />
+   <UseEffectHook /> */}
    <UseCallbackHook />
-   <UseRefHook />
+   {/* <UseRefHook />
    <UseContextHook />
    <UseReducerHook />
-    <UseMemoHook />
+    <UseMemoHook /> */}
     {/* <Navbar /> */}
 
   {/* <Routes>

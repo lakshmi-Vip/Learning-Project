@@ -1,16 +1,15 @@
 /*
 what is useMemo?
-useMemo is a hook that memorizes the output of a function. It is similar to useCallback, 
-but it is used for functions that return a value, not a function.
-useMemo is used to optimize performance for functions that return a value.
-It is used to prevent unnecessary calculations on every render.
-It is used to prevent the recreation of the same value on every render.
+The UseMemoHook component demonstrates the use of the useMemo hook in React. 
+The useMemo hook is used to memoize the result of a function, preventing unnecessary calculations on every render. 
+This can help optimize performance, especially for expensive calculations.
 
+Co
 */
 //give example based on the defination above
 
 import React, { useState, useMemo } from 'react';
-import ProductSearch from './UseMemo/productSearch';
+// import ProductSearch from './UseMemo/productSearch';
 
 const UseMemoHook = () => {
     const [count, setCount] = useState(0);
@@ -24,7 +23,7 @@ const UseMemoHook = () => {
             <h1>UseMemo Hook</h1>
             <h2>{doubleNumber}</h2>
             <button onClick={() => setCount(count + 1)}>Increment</button>
-          <ProductSearch />
+          {/* <ProductSearch /> */}
             
         </div>
     )

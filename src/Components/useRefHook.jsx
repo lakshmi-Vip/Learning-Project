@@ -8,8 +8,8 @@ can access dom nodes/elements directly.
 */
 
 import React, { useRef } from 'react';
-import AccessDomElement from './UseRef/domElement';
-import PersistValue from './UseRef/perSistValue';
+// import AccessDomElement from './UseRef/domElement';
+// import PersistValue from './UseRef/perSistValue';
 const UseRefHook = () => {
     const inputRef = useRef(null);
     const handleClick = () => {
@@ -21,8 +21,8 @@ const UseRefHook = () => {
             <input ref={inputRef} type="text" />
             <button onClick={handleClick}>Focus Input</button>
 
-            <AccessDomElement />
-            <PersistValue />
+            {/* <AccessDomElement />
+            <PersistValue /> */}
         </div>
     )
 }

@@ -1,0 +1,10 @@
+
+.profile-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    background-color: rgb(154, 233, 154);
+}
+h2 {
+    color:aqua;
+}

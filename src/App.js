@@ -30,21 +30,22 @@ const LazyComponent = lazy(() => import('./Components/useMemoHook'))
 function App() {
   return (
     <>
-    <Suspense fallback={<div> Loading ......</div>}>
+    {/* <Suspense fallback={<div> Loading ......</div>}>
     <LazyComponent/>
     </Suspense>
-    <ParentComponent />
+    <ParentComponent /> */}
     {/* <UseStateHook />
    <UseEffectHook /> */}
-   <UseCallbackHook />
+   {/* <UseCallbackHook /> */}
    {/* <UseRefHook />
    <UseContextHook />
    <UseReducerHook />
     <UseMemoHook /> */}
-    {/* <Navbar /> */}
+    <Navbar />
 
-  {/* <Routes>
-    <Route path='/' element={<Home />}></Route>
+  <Routes>
+    <Route path='/' element={<Home />}>
+    </Route>
     <Route path='about' element={<About />}></Route>
     <Route path='order-summary' element={<OrderSummary/>}></Route>
     <Route path='product' element={<Product />}>
@@ -53,12 +54,12 @@ function App() {
       <Route path='new' element={<NewProd />} />
     </Route>
     <Route path='user' element={<Users />}>
-      <Route path=':userId' element={<UserDetails />}></Route>
-      <Route path='admin' element={<Admin />}></Route>
+      <Route path=':userId' element={<UserDetails />} />
+      <Route path='admin' element={<Admin />} />
     </Route>
     
     <Route path='*' element={<Nomatch/>}></Route>
-  </Routes> */}
+  </Routes>
   </>
   );
 }

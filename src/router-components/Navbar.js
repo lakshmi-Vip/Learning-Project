@@ -7,6 +7,7 @@ function Navbar() {
       <NavLink to='/'>Home</NavLink>{/*insted of h ref we are using to */}
       <NavLink to='/about'>About</NavLink>
       <NavLink to='/product'>Product</NavLink>
+      <NavLink to='user'>User</NavLink>
     </nav>
   )
 }

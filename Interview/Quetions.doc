@@ -20,7 +20,7 @@
 20.What is differnce between let, var, const(es6 refer all the concepts)
 21.Self invoke function, function defination, function expression
 22. Whay we use Key and lists
-23. synthetic events, nonsyntetic events, genrator funtion
+23. synthetic events, nonsyntetic events, genrator funtion, syntehetic elements and non synthetic elements
 24.react forms, React Routers, shallow copy and deep copy
 25.explain react lifecycle methods
 26.Conditional rendaring, Event loop, generator Function, getter ,setter
@@ -33,7 +33,47 @@
 34.how to connect react and redux
 35.async await, Promises, Callback differences.
 36.Differnce between usecallBack, useMomo, UseEffect
+37.is setState is asynchronous or synchronous
+38.how to clone array
+39.Difference between html and html5 and css and css3
 
+ReactRouter:
+What is React Router?
+How do you set up React Router in a React application?
+What are the differences between BrowserRouter and HashRouter in React Router?
+What is the purpose of the Route component in React Router?
+How does React Router handle navigation and page rendering?
+What is the exact prop in React Router, and why is it important?
+What is the difference between Switch and Routes in React Router?
+How do you create links in React Router?
+What is the difference between Link and NavLink in React Router?
+Intermediate Questions
+What is the role of the useHistory and useNavigate hooks in React Router?
+How does useParams work in React Router?
+What is useLocation in React Router?
+What is useRouteMatch in React Router (v5)?
+How do you handle nested routing in React Router?
+How do you pass data between components when navigating in React Router?
+What is a 404 page, and how do you set it up in React Router?
+What are route guards, and how do you implement them with React Router?
+What is the purpose of Redirect in React Router (v5)?
+Advanced Questions
+How does React Router handle route matching when there are multiple routes with the same path?
+What are dynamic routes, and how do you handle them in React Router?
+What is the Suspense and lazy loading in React Router, and how can they be used for code splitting?
+Explain how React Router’s Redirect is handled in React Router v6.
+What is the role of Outlet in React Router v6?
+How do you handle authentication and authorization in React Router?
+What are the differences between the useNavigate and useHistory hooks?
+What is a layout route, and how is it different from a regular route in React Router?
+How do you handle scroll position when navigating between pages with React Router?
+Explain how you can handle query parameters with React Router.
+How would you implement pagination with React Router?
+How does React Router integrate with Redux or React Context for state management?
+Performance and Optimization
+How do you optimize React Router for large applications?
+How do you implement lazy loading of routes in React Router v6?
+How can you prevent unnecessary re-renders when using React Router?
 
 1.What is JavaScript and what are different data types?
 Question: What is JavaScript? Answer: JavaScript is a high-level, interpreted programming language that is used to create interactive effects within web browsers.

@@ -1,16 +1,17 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import Home from './Home'
 
-function OrderSummary() {
+function OrderSummay() {
     const navback = useNavigate()
   return (
    <> 
    <div>
-      Order Confirm !
-      <button onClick={() => {navback(-1)}}>Go back</button>
+      Order Confirm ! hi
+      <button onClick={() => {navback('/')}}>Go back</button>
     </div>
     </>
   )
 }
 
-export default OrderSummary
+export default OrderSummay
